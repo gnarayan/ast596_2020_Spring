@@ -42,6 +42,8 @@ It is not strictly necessary to fork the main course repo: if you don't plan to
 suggest any changes to the material, you can just clone it directly as
 described below. But if you want to make a fork, follow these directions.
 
+On the other hand, it's good practice, so you should do it this way.
+
 While viewing the GitHub repository that you want to fork, make sure you are
 logged in, and you should see a button in the top righthand corner marked
 "Fork".  Click this button.  Ta-daa!  You have your own copy of the repository,
@@ -59,7 +61,49 @@ git clone <address>
 ```
 Here, `<address>` is the git address of the remote repo (either the original or your fork), which will be something like `git@github.com:KIPAC/StatisticalMethods.git`. You can reveal this address by clicking the "Clone or download" button on the repo's GitHub page. Give this command a try.
 
-It will likely fail, with one of two errors. If you get a message like this:
+
+```
+git clone https://github.com/gnarayan/ast596_2020_Spring.git
+```
+
+### Commiting a change
+
+Within the repo, there is a `homework/` folder. Create a subdirectory with your FirstnameLastname and create a file with some random text in it.
+To push this change to github, the first thing you need to do is to add this change to your local index.
+
+You do this with:
+
+```
+git add homework/FirstnameLastname/example.txt <adjust the path as needed>
+```
+
+If you want, you can check the status of your updates with 
+
+```
+git status
+```
+
+That change you just added is staged, but not "committed" to your local repository first.
+You commit it with 
+
+```
+git commit
+```
+which will open up a text editor and let you enter a commit message to describe what you are changing.
+
+Alternately,
+```
+git commit -m "some useful and descriptive message"
+```
+
+Finally, to push your change from your local machine to github, you need to:
+
+```
+git push origin master
+```
+
+If you forked your repo and you just setup your git account, it should prompt you for your username and password.
+If you cloned my repo, it will likely fail, with one of two errors. If you get a message like this:
 ```
 Permission denied (publickey)
 ```
