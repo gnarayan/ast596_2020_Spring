@@ -132,7 +132,7 @@ Follow the instructions from conda to [install Miniconda](https://conda.io/proje
 ```
 conda config --append channels conda-forge
 conda config --append channels http://ssb.stsci.edu/astroconda
-conda create -n fds -c stsci python=3 ipython jupyter numpy scipy matplotlib seaborn pandas astropy healpy pymc3 emcee scikit-learn astroml tensorflow ds9 specutils specviz glueviz statsmodels corner
+conda create -n fds -c stsci python=3 ipython jupyter numpy scipy matplotlib seaborn pandas astropy healpy pymc3 emcee scikit-learn astroml tensorflow ds9 specutils specviz glueviz statsmodels corner nb_conda_kernels
 ```
 
 
