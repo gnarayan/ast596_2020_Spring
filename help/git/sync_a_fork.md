@@ -5,7 +5,7 @@ First `cd` into your repository in your local workspace (your laptop).
 This is basic, but a lot of `git` errors are simply because people are in the wrong directory.
 
 
-### Add upstram (only have to do this once!)
+### Add upstream (only have to do this once!)
 
 If this is the first time you are trying to sync a fork, you need to tell `git` where you forked from.
 
