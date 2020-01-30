@@ -2,7 +2,7 @@
 
 * Fork this repo
 
-* Within your fork, reate a folder in this subdirectory with FirstName_LastName
+* Within your fork, create a folder in this subdirectory with FirstName_LastName
 
 * Do not commit any data to this directory - just your solutions. Use relative paths to refer to any data in the github repo.
 
