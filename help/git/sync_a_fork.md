@@ -49,7 +49,7 @@ git checkout master
 
 and then apply the changes
 ```
-git merge upsteam/master
+git merge upstream/master
 ```
 
 
