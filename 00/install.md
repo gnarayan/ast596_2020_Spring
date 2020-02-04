@@ -66,6 +66,9 @@ Here, `<address>` is the git address of the remote repo (either the original or 
 git clone https://github.com/gnarayan/ast596_2020_Spring.git
 ```
 
+Ideally, you should *fork* my repo to your GitHub account and clone your fork.
+If you do just clone my repo, that's fine too, but let me know your username, so I can add you as a collaborator, so you can avoid the issue that will crop up when you do this next step:
+
 ### Commiting a change
 
 Within the repo, there is a `homework/` folder. Create a subdirectory with your FirstnameLastname and create a file with some random text in it.
@@ -103,7 +106,8 @@ git push origin master
 ```
 
 If you forked your repo and you just setup your git account, it should prompt you for your username and password.
-If you cloned my repo, it will likely fail, with one of two errors. If you get a message like this:
+
+*If you cloned my repo, it will likely fail, with one of two errors. If you get a message like this:*
 ```
 Permission denied (publickey)
 ```
@@ -126,9 +130,11 @@ Follow the instructions from conda to [install Miniconda](https://conda.io/proje
 ### Create an environment
 
 ```
-conda config --add channels http://ssb.stsci.edu/astroconda
-conda create -n fds -c stsci python=3 ipython jupyter numpy scipy matplotlib seaborn pandas astropy healpy pymc3 emcee scikit-learn astroml tensorflow ds9 specutils specviz glueviz statsmodels corner
+conda config --append channels conda-forge
+conda config --append channels http://ssb.stsci.edu/astroconda
+conda create -n fds -c stsci python=3 ipython jupyter numpy scipy matplotlib seaborn pandas astropy healpy pymc3 emcee scikit-learn astroml tensorflow ds9 specutils specviz glueviz statsmodels corner nb_conda_kernels
 ```
+
 
 This will create the `fds` conda environment with a python installation for this class. If you don't have git, add `git` to that long list.
 
