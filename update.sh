@@ -2,5 +2,5 @@
 git remote -v
 git fetch upstream
 git checkout master
-git merge upstream/master -m "checking out"
+git merge --allow-unrelated-histories upstream/master -m "checking out"
 git push origin master 
