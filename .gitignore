@@ -5,6 +5,8 @@
 *.tar.bz*
 *.fits.gz
 HLC*
+*hdf5
+homework/01/*png
 
 *.DS_Store
 
