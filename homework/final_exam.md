@@ -22,7 +22,7 @@
 Policies subject to discussion over week of April 13th
 
 Teams:
-pi: Cyrus, Charmi, Melanie, Alex
-e: Frank, Sihan, Jennifer, Chris
-i: Sreevani, Colin, Breanna
-sqrt(2): Tsung-Han, Andrew, Lina, Patrick 
+- pi: Cyrus, Charmi, Melanie, Alex
+- e: Frank, Sihan, Jennifer, Chris
+- i: Sreevani, Colin, Breanna
+- sqrt(2): Tsung-Han, Andrew, Lina, Patrick 
