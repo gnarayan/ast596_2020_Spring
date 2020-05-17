@@ -4,3 +4,6 @@
 [submodule "homework/submissions/09_final_submisssions/bree_colin_sree"]
 	path = homework/submissions/09_final_submisssions/bree_colin_sree
 	url = https://github.com/burke86/ast596_final.git
+[submodule "homework/submissions/09_final_submisssions/andrew_lina_patrick_tsunghan"]
+	path = homework/submissions/09_final_submisssions/andrew_lina_patrick_tsunghan
+	url = https://github.com/awe2/Astro596_Final.git
