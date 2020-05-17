@@ -1,3 +1,6 @@
 [submodule "homework/submissions/09_final_submisssions/chris_frank_jennifer_sihan"]
 	path = homework/submissions/09_final_submisssions/chris_frank_jennifer_sihan
 	url = https://github.com/christandoi/ast596fds-final
+[submodule "homework/submissions/09_final_submisssions/bree_colin_sree"]
+	path = homework/submissions/09_final_submisssions/bree_colin_sree
+	url = https://github.com/burke86/ast596_final.git
