@@ -7,3 +7,6 @@
 [submodule "homework/submissions/09_final_submisssions/andrew_lina_patrick_tsunghan"]
 	path = homework/submissions/09_final_submisssions/andrew_lina_patrick_tsunghan
 	url = https://github.com/awe2/Astro596_Final.git
+[submodule "homework/submissions/09_final_submisssions/alex_charmi_cyrus_mel"]
+	path = homework/submissions/09_final_submisssions/alex_charmi_cyrus_mel
+	url = https://github.com/archipleym/melalexcharmicyrus_final
